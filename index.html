@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    background: linear-gradient(gray,black);
+    margin: 0;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #525252;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 40px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    border: black;
+    border-width: 10px;
+}
+
+.bt1 {
+    margin: 20px 20px;
+    border: solid 2px black;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.bt1:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.bt1:active {
+    margin: 18px 18px;
+    border: solid 2px white;
+    background: linear-gradient(black);
+    opacity: 0.7;
+    color: white;
+}
+
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 0px 20px;
+}
+
+.b1 {
+    border: white;
+    border-radius: 10px;
+    border: solid;
+    border-width: 10px;
+    padding: 30px 20px;
+    gap: 50px;
+    font-size: 20px;
+    margin: 40px 40px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(gray,black);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.b1 p {
+    max-width: 400px;
+}
+
+.lg {
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    width: 344px;
+}
+
+.b2 {
+    justify-content: center;
+    align-items: center;
+    border: white;
+    border-radius: 10px;
+    border: solid;
+    border-width: 10px;
+    padding: 30px 20px;
+    gap: 50px;
+    font-size: 20px;
+    margin: 40px 40px;
+    background: linear-gradient(gray,black);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.b2 p {
+    max-width: 400px;
+}
+
+.zgn1 {
+    width: 160px;
+    height: 120px;
+    border: solid black 2px;
+    border-radius: 8px;
+}
+
+
+.img {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.body {
+    justify-items: center;
+}
+
+.b3 {
+    border: white;
+    border-radius: 10px;
+    border: solid;
+    border-width: 10px;
+    padding: 30px 20px;
+    gap: 100px;
+    font-size: 20px;
+    margin: 40px 40px;
+    background: linear-gradient(gray,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.bt2 {
+    background-color: #333333;
+    color: white;
+    padding: 8px 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.bt2:hover {
+    background-color: white;
+    border-color: #333333;
+    color: #333333;
+    transition: all 0.3s;
+}
+
+.bt2:active {
+    background-color: white;
+    border-color: #333333;
+    color: #333333;
+    transition: all 0.3s;
+    opacity: 0.7;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="img\logo.jpg" class="logo">
+            <h2>RobotPal Challange</h2>
+        </div>
+        <div>
+            <a href=""><button class="bt1">Join</button></a>
+            <a href="https://www.google.fr/"><button class="bt1">Exit</button></a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="b1">
+            <div class="div_logo"><img src="img\logo.jpg" class="lg"></div>
+            <div class="div_p"><p>Zaghoun is a picturesque town located in northeastern Tunisia, known for its natural beauty and historical charm. Nestled at the foot of the Atlas Mountains, it offers stunning views and a tranquil atmosphere. The town is famous for its ancient Roman water temple and the source of the aqueduct that once supplied Carthage. Zaghoun is also known for its traditional crafts, especially pottery and handmade goods. Surrounded by lush olive groves and orchards, it is a hub for agriculture and local produce. Its blend of history, nature, and culture makes Zaghoun a hidden gem worth visiting.</p></div>
+        </div>
+        <div class="b2">
+            <p>Zaghoun is a picturesque town located in northeastern Tunisia, known for its natural beauty and historical charm. Nestled at the foot of the Atlas Mountains, it offers stunning views and a tranquil atmosphere. The town is famous for its ancient Roman water temple and the source of the aqueduct that once supplied Carthage. Zaghoun is also known for its traditional crafts, especially pottery and handmade goods. Surrounded by lush olive groves and orchards, it is a hub for agriculture and local produce. Its blend of history, nature, and culture makes Zaghoun a hidden gem worth visiting.</p>
+            <div class="img">
+                <img src="zgn1.jpg" class="zgn1">
+                <img src="zgn2.jpg" class="zgn1">
+                <img src="zgn3.jpg" class="zgn1">
+                <img src="zgn4.jpg" class="zgn1">
+            </div>
+        </div>
+        <div class="b3">
+            <a href="pdf\Building Instr.pdf"><button class="bt2">Building Instr</button></a>
+            <a href="pdf\Game Field.jpg"><button class="bt2">Game Field</button></a>
+            <a href="pdf\Rules.pdf"><button class="bt2">Rules</button></a>
+        </div>
+    </div>
+<body>
+</html>
